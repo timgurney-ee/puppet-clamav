@@ -38,7 +38,8 @@ class clamav::params {
       $clamd_package     = 'clamav-scanner'
       $clamd_version     = 'installed'
       $clamd_config      = '/etc/clamd.d/scan.conf'
-      $clamd_service     = 'clamd@scan'
+#      $clamd_service     = 'clamd@scan'
+      $clamd_service     = 'clamd.scan'
       $clamd_options     = {}
 
       #### Default values OS specific ####
